@@ -1,0 +1,49 @@
+.jumbotron{
+    width: 100%;
+    background-image: url("../../public/slike/jumbbg.jpg");
+    color: white;
+    box-shadow: inset 1000px 1000px rgba(0, 0, 0, .5);
+    margin-bottom: 0;
+  }
+  .spaceknjiga{
+    opacity: 0.3;
+  }
+  .drugi{
+    background-image: url("../../public/slike/dvabg.jpg");
+    margin-top:0;
+    padding: 40px;
+  }
+  .plavi{
+    border: 10px solid #17a2b8;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .zuti{
+    border: 10px solid #ffc107;
+    padding: 30px;
+    margin: 10px;
+  }
+  .zeleni{
+    border: 10px solid #28a745;
+    padding: 30px;
+    margin: 10px;
+  }
+  .kontakt{
+    background-image: url("../../public/slike/kontakt.jpg");
+    box-shadow: inset 1000px 1000px rgba(0, 0, 0, .7);
+    background-position: center;
+    color: white;
+    min-height:450px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+ 
+  .hmpg{
+    height: 900px;
+    background-image: url("../../public/slike/jumbbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   color: rgb(255, 255, 255);
+    box-shadow:inset 1000px 900px rgba(0, 0, 0, 0.527);
+}

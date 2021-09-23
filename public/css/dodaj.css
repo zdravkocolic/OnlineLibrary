@@ -1,0 +1,32 @@
+.dodaj{
+    color:white;
+    background-image: url("../slike/dashbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.d-flex button {
+    margin: 1.5em 0.4em;
+    padding: 0.3em 1.4em;
+}
+ .d-flex table{
+     margin: 1em 10em;
+ }
+
+ table .btnedit {
+     color: lightsalmon;
+     cursor: pointer;
+ }
+ .success{
+     background-color: lightgreen;
+     padding: 1em;
+ }
+
+ .error{
+     background-color: tomato;
+     padding: 1em;
+ }
+ .scrollit {
+    overflow:scroll;
+    height:30px;
+}

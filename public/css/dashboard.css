@@ -1,0 +1,10 @@
+li {
+	padding: 10px;
+}
+.dash{
+	height:100%;
+	color: white;
+	background-image: url("../slike/dashbg.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+}

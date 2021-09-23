@@ -1,0 +1,28 @@
+.poz{
+    background-image: url("../slike/poz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 1200px 1200px rgba(0, 0, 0, 0.527);
+    color: white;
+
+} 
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+.slanje{
+  background-image: url("../slike/slanje.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow:inset 1200px 1200px rgba(0, 0, 0, 0.527);
+  color: white;
+  padding-top: 50px;
+}
