@@ -14,7 +14,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="./showme"><img src="<?= base_url();?>/slike/sova.png" style="width:50px; height:50px;">Biblioteka</a>
+  <a class="navbar-brand" href="<?= base_url();?>/pages/showme"><img src="<?= base_url();?>/slike/sova.png" style="width:50px; height:50px;">Biblioteka</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

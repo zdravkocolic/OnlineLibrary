@@ -2,9 +2,10 @@ li {
 	padding: 10px;
 }
 .dash{
-	height:100%;
+	
 	color: white;
 	background-image: url("../slike/dashbg.jpg"); 
     background-repeat: no-repeat;
     background-position: center;
+	box-shadow:inset 1200px 1200px rgba(0, 0, 0, 0.5);
 }

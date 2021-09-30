@@ -2,6 +2,7 @@
  
 use CodeIgniter\Controller;
 use App\Models\UserModel; 
+use App\Models\OrdersModel;
 class Dashboard extends Controller
 {
     public function index()
@@ -9,7 +10,10 @@ class Dashboard extends Controller
         $session = session(); //započinje se sesija u pozadini, u koju smeštamo podatke po želji (ime korisnika, username, id...)
         $model = new UserModel();
         $data["user_data"] = $model->where('user_id', $_SESSION['user_id'])->first();
-       
+
+        $model2 = new OrdersModel();
+        $data["orders"] = $model2->where('email', $_SESSION["email"])->findAll();
+
         return view('dashboard', $data); //komanda kojom pozivamo prikazivanje view-a, odnosno html stranice iz foldera View
     }
     public function update($id=null){ 
@@ -31,7 +35,5 @@ class Dashboard extends Controller
             return redirect()->to('/dashboard'); 
         }
         
-         
-     
 
 }

@@ -7,15 +7,15 @@ require_once ('templates/operation.php');
     <img src="<?= base_url();?>/slike/pocetnaknjige.jpg" style="height: 400px; width: 100%;">
   </div>
 </section>
-<section style="background-color:#182752; color:white;">
-  <?php include 'templates/header.php'; ?>
+<section style="background-color:#c7c6a4; color: white;">
+  <?php include 'templates/header.php';?>
 <div class="container text-center py-1 rounded">
 
     <h3><img src="<?= base_url();?>/slike/bookcharacter.png" style="height: 100px; width: 100px;"> Dobrodošli u našu online biblioteku. <img src="<?= base_url();?>/slike/girl.png" style="height: 100px; width: 100px;"></h3>
 </div>
 </section>
 
-<section style="background-color:#182752;">
+<section style="background-color:#c7c6a4;">
   <div class="container">
     <div class="row justify-content-between">
         
