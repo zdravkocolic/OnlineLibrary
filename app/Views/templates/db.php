@@ -26,7 +26,7 @@
                 book_publisher VARCHAR (20),
                 book_price FLOAT,
                 book_details VARCHAR (255)
-            );
+            )default charset=utf8 collate=utf8_unicode_ci;
             ";
             if(mysqli_query($con,$sql)){
                 return $con;

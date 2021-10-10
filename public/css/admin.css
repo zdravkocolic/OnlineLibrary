@@ -53,10 +53,13 @@ th,td {
 tr {
     border: none;
 }
-.normal:nth-child(even) {
+.normal {
+    background: #17a2b8;
+}
+.normal:nth-child(3n-1) {
     background: #ffc107;
 }
-.normal:nth-child(odd) {
+.normal:nth-child(3n+0) {
     background: #28a745;
 }
 

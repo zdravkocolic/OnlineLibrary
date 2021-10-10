@@ -1,5 +1,5 @@
 <?php
-
+header('Content-Type: text/html; charset=utf-8');
 // Valid PHP Version?
 $minPHPVersion = '7.3';
 if (version_compare(PHP_VERSION, $minPHPVersion, '<'))

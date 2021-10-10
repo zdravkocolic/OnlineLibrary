@@ -42,34 +42,34 @@
 
 </section>
 <!-- kraj hedera -->
-
-<section class="drugi">
 <!-- sekcija br2 -->
+<section class="drugi">
+
 <div class="container">
 <div class="row justify-content-between">
   
     <div class="card col-lg-3 col-md-5 col-sm-12 plavi">
-  <img class="card-img-top" src="../../public/slike/potraga.png" alt="Card image cap">
+  <img class="card-img-top" src="../../public/slike/potraga.png" alt="Card image cap" style="width: 200px; height:170px;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Tražite knjigu za sebe?</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-info">Go somewhere</a>
   </div>
 </div>
  
     <div class="card col-lg-3 col-md-5 col-sm-12 zuti">
-  <img class="card-img-top" src="../../public/slike/potraga.png" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+  <img class="card-img-top rounded-circle" src="../../public/slike/poklonknjiga.jpg" alt="Card image cap" style="width: 200px; height:170px;">
+  <div class="card-body mt-3">
+    <h5 class="card-title">Poklonite knjigu</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-warning">Go somewhere</a>
   </div>
 </div>
   
   <div class="card col-lg-3 col-md-5 col-sm-12 zeleni">
-    <img class="card-img-top" src="../../public/slike/potraga.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+    <img class="card-img-top rounded-circle" src="../../public/slike/decaknjiga.jpg" alt="Card image cap" style="width: 200px; height:170px;">
+    <div class="card-body mt-3">
+      <h5 class="card-title">Knjige za decu</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-success">Go somewhere</a>
     </div>

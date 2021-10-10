@@ -23,7 +23,7 @@ if(isset($_GET['id'])){
 
 <!DOCTYPE html>
 <html lang="en">
-
+<meta charset="utf-8" />
 <head>
 <link rel="stylesheet" href="<?= base_url();?>/css/detalji.css" type="text/css">
 </head>
@@ -57,7 +57,7 @@ if(isset($_GET['id'])){
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form method="POST">
+                <form method="POST" accept-charset="UTF-8">
                     <div class="form-group">
                         <label for="nazivKnjige">Naziv knjige</label>
                         <input type="nazivKnjige" class="form-control" 

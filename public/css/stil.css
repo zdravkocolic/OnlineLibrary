@@ -47,3 +47,49 @@
    color: rgb(255, 255, 255);
     box-shadow:inset 1000px 900px rgba(0, 0, 0, 0.527);
 }
+.opis{
+  border-top: 10px solid #17a2b8;
+  border-bottom: 10px solid #17a2b8;
+}
+.opis:nth-child(3n-1) {
+  border-top: 10px solid #ffc107;
+  border-bottom: 10px solid #ffc107;
+}
+.opis:nth-child(3n+0) {
+  border-top: 10px solid #28a745;
+  border-bottom: 10px solid #28a745;
+}
+.opis:hover{
+  box-shadow: inset 1000px 1000px rgba(17, 118, 165, 0.7);
+  border: 10px solid rgba(17, 118, 165, 0.7);
+}
+.opis:hover:nth-child(3n-1) {
+  box-shadow: inset 1000px 1000px rgba(255, 193, 7, 0.7);
+  border: 10px solid rgba(255, 193, 7, 0.7);
+}
+.opis:hover:nth-child(3n+0) {
+  box-shadow: inset 1000px 1000px rgba(40, 167, 69, 0.7);
+  border: 10px solid rgba(40, 167, 69, 0.7);
+}
+.info {
+	font-family: Inconsolata;
+    padding-left: 20px;
+    transform: translateY(250px);  
+    transition: transform 1s cubic-bezier(.31,1.21,.64,1.02);
+    visibility: hidden;
+}
+.opis:hover .info {
+    transform: translateY(0px);
+    visibility: visible;
+}
+.naruci {
+    font-weight: bolder;
+    padding: 15px;    
+    margin-bottom: 5px;
+    width: 100%;
+}
+.detalji {
+    padding: 15px;
+    width: 100%;
+    margin-left: 0 !important;
+}

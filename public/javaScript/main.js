@@ -17,7 +17,7 @@ $(".btnedit").click(e=>{
 //slika ne moze da se upise opet jer nema polje da vrati sliku iz baze
  bookname.val(textvalues[2]);
  bookpublisher.val(textvalues[3]);
- bookprice.val(textvalues[4].replace("$", ""));
+ bookprice.val(textvalues[4].replace("RSD", ""));
  bookdetails.val(textvalues[5]);
 });
 

@@ -1,5 +1,4 @@
 <?php 
-
 require_once ('templates/input.php');
 require_once ('templates/operation.php');
 //proveravamo GET request id parametar

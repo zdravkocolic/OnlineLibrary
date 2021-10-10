@@ -10,7 +10,7 @@ require_once ('templates/operation.php');
 	<div class="container">
 		<div class="row">
 			
-			<div class="col-sm-12 col-md-12 col-lg-6 py-5">
+			<div class="col-sm-12 col-md-12 col-lg-3 py-5">
 				<h4>Update user information</h4>
 				<?php 
 				if($user_data):?>
@@ -48,7 +48,7 @@ require_once ('templates/operation.php');
  					</div>
 			</div>
 			<!-- narudzbine -->
-		<div class="narudzbine col-sm-12 col-md-12 col-lg-6 py-5">
+		<div class="narudzbine col-sm-12 col-md-12 col-lg-8 py-5">
 		
 		
 		<?php
